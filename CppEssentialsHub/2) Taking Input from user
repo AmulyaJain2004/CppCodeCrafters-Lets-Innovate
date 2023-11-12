@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+int main() 
+{
+  int number;
+  cout << "Enter your Favourite Number between 1 to 100: -" << endl;
+  cin >> number;
+  cout << "Wow, That's amazing, it's my favourite number too" << endl;
+  return 0;
+}
