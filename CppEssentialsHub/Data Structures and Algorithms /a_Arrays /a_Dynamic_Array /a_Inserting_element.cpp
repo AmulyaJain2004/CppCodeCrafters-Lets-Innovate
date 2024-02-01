@@ -13,5 +13,6 @@ int main()
         cout << "Enter "<< i+1 << "element: ";
         cin >> arr[i];
     }
+    free(arr);
     return 0;
 }
