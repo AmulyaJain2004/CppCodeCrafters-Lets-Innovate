@@ -39,5 +39,7 @@ int main()
     {
         cout << cpy_arr[i] << " ";
     }
+    free(arr);
+    free(cpy_arr);
     return 0;
 }
